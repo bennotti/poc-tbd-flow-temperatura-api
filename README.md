@@ -23,4 +23,4 @@ Para executar o microserviço é necessário ter o .Net Core 7.0 instalado em su
 
 ## Links:
 
-- Baixar Visual Studio ()
+- Baixar Visual Studio (https://visualstudio.microsoft.com/pt-br/)
