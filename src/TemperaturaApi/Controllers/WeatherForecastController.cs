@@ -18,8 +18,8 @@ namespace TemperaturaApi.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpGet(Name = "informacoes/{latitude}/{longitude}")]
+        public IEnumerable<WeatherForecast> Get([FromRoute]long latitude, [FromRoute]long longitude)
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
